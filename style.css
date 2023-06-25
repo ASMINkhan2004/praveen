@@ -1,0 +1,47 @@
+.gradient-background {
+    background: linear-gradient(500deg, #d6bcbc, #be0a25, #0e0d0d);
+    background-size: 180% 180%;
+    animation: gradient-animation 2s ease infinite;
+  }
+  
+  @keyframes gradient-animation {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+  
+  button{
+    height: 300px;
+    width:300px;
+    border-radius: 50%;
+    border-color: rgb(212, 50, 0);
+    border-width: 20px;
+    
+}
+.pra{
+    background-image: url(./images/IMG-20230403-WA0003.jpg);
+}
+.container{
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+    position: relative;
+    top:25%
+}
+body{
+    height: 100vh;
+    
+}
+p{
+    font-size: 20px;
+    font-weight: 600;
+    color: rgb(255, 255, 255);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
